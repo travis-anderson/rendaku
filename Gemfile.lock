@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rendaku (1.0.0)
+    rendaku (1.0.1)
       rmagick (~> 2.13)
 
 GEM
