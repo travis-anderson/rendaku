@@ -1,0 +1,20 @@
+PATH
+  remote: .
+  specs:
+    rendaku (1.0.0)
+      rmagick (~> 2.13)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.5.1)
+    rake (10.4.2)
+    rmagick (2.13.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  minitest
+  rake
+  rendaku!
