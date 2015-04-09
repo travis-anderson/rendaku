@@ -46,6 +46,6 @@ pattern.book #=> #<Rendaku::Book:0x007fde931e03b0 @first_page=2, @last_page=300,
 pattern.image #=> /path/to/file.png PNG 629x1241=>150x1800 150x1800+0+0 DirectClass 8-bit
 
 # the template outputs a list of page numbers and associated folds
-# measured from the bottom of the page
+# measured from the top of the page
 pattern.template #=> [[{ :page => 2, :top => 6.04, :bottom => 6.08 }],[{ :page => 4, :top => 6.02, :bottom => 6.11 }]]
 ```
