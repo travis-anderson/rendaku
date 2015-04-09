@@ -82,6 +82,7 @@ module Rendaku
       def squish_image pages, height, image
         img = image.resize! pages, height
         img.threshold Rendaku::QuantumRange*0.5
+        img.trim!
       end
 
       def too_many_holes? pattern
